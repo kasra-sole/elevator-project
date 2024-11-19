@@ -1,0 +1,90 @@
+
+html,
+body {
+  direction: rtl; 
+  font-family: "Tahoma", sans-serif;
+  text-align: right;
+}
+
+.rtl-layout {
+  direction: rtl;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.sider {
+  background: var(--colorBgContainer);
+}
+.ant-menu {
+  text-align: right;
+}
+.ant-layout-header {
+  padding: 0;
+  background: var(--colorBgContainer);
+}
+.ant-btn {
+  font-size: 16px;
+  width: 64px;
+  height: 64px;
+}
+.content {
+  padding: 24px;
+  min-height: 280px;
+  background: var(--colorBgContainer);
+  border-radius: var(--borderRadiusLG);
+}
+
+.content-container {
+  margin-bottom: 16px;
+}
+.ant-breadcrumb {
+  text-align: right;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.brand {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 20px;
+}
+.divider {
+  padding-top: 20px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  left: 20px;
+  top: 15px;
+  gap: 26px;
+  font-size: large;
+}
+.Avatar{
+  display: flex;
+  flex-direction: row;
+}
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark-mode .sider {
+  background-color: #001529;
+}
+
+.dark-mode .content {
+  background-color: #4f4343;
+}
+
