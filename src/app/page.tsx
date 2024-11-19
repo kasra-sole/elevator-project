@@ -5,8 +5,11 @@ import Dashoard from "../view/layout/defultpage.tsx";
 const App: React.FC = () => {
   return (
     <Layout style={{ minHeight: "100vh" }}>
-      <Dashoard />
+      <Dashoard>
+        
+      </Dashoard>
       {/* Add other content here */}
+     
     </Layout>
   );
 };
