@@ -4,7 +4,7 @@ import React from "react";
 import "./style/Dashboard.css";
 import { Divider, Breadcrumb, Layout, Card, Row, Col } from "antd";
 import OngoingProjects from "./OngoingProjects.tsx";
-import TaskTable from "./TaskTable.tsx";
+import TaskTable from "./tasktable.tsx";
 
 const { Content } = Layout;
 
