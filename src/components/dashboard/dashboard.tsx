@@ -1,10 +1,10 @@
 // Dashboard.tsx
 "use client";
 import React from "react";
-import "./style/dashbord.css";
+import "./style/Dashboard.css";
 import { Divider, Breadcrumb, Layout, Card, Row, Col } from "antd";
 import OngoingProjects from "./OngoingProjects.tsx";
-import TaskTable from "./tasktable.tsx"; 
+import TaskTable from "./TaskTable.tsx";
 
 const { Content } = Layout;
 
@@ -52,9 +52,8 @@ const Dashboard: React.FC = () => {
           </Row>
         </div>
         <div className="table">
-          <TaskTable /> 
+          <TaskTable />
         </div>
-        
       </Content>
     </div>
   );
