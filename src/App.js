@@ -3,7 +3,7 @@ import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import Customers from "./components/customer/customer.tsx";
 import Orders from "./components/new-order/NewOrder.tsx";
 import Scaffold from "./view/layout/layout-page.tsx";
-import Dashboard from "./components/dashboard/Dashboard.tsx";
+import Dashboard from "./components/dashboard/dashboard.tsx";
 const App = () => {
   return (
     <Router>
