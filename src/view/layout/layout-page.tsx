@@ -2,7 +2,7 @@ import React, { ReactNode, useState } from "react";
 import "./style/defult.css";
 import { Routes, Route, Outlet } from "react-router-dom";
 import Customers from "../../components/customer/customer.tsx";
-import Orders from "../../components/neworder/new-order.tsx";
+import Orders from "../../components/new-order/NewOrder.tsx";
 import {
   LaptopOutlined,
   NotificationOutlined,
@@ -20,7 +20,7 @@ const Scaffold: React.FC<ScaffoldProps> = (props) => {
   const [darkMode, setDarkMode] = useState(false);
 
   const menuItems = [
-    { key: "1", icon: <UserOutlined />, label: "داشبورد",path:"/" },
+    { key: "1", icon: <UserOutlined />, label: "داشبورد", path: "/" },
     {
       key: "2",
       icon: <LaptopOutlined />,

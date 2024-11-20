@@ -1,0 +1,88 @@
+/* استایل‌های عمومی صفحه Home */
+.home-container {
+  padding: 24px; /* فاصله استاندارد Ant Design */
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+}
+
+/* عنوان اصلی جدول */
+.table-title {
+  font-size: 16px; /* اندازه استاندارد Ant Design */
+  font-weight: 500;
+  margin-bottom: 24px; /* فاصله بیشتر از جدول */
+  color: rgba(0, 0, 0, 0.85); /* رنگ متن استاندارد */
+  text-align: left; /* تراز به سمت چپ */
+}
+
+/* استایل جدول */
+.styled-table {
+  background-color: #ffffff; /* پس‌زمینه سفید */
+  border-radius: 4px; /* گوشه‌های گرد استاندارد */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* سایه استاندارد */
+  overflow: hidden;
+  margin-top: 16px; /* فاصله بیشتر از تایتل */
+}
+
+/* ردیف‌های باز شده */
+.expanded-row {
+  background-color: #fafafa; /* رنگ ملایم برای پس‌زمینه */
+}
+
+.expanded-row .ant-table-tbody > tr {
+  background-color: #ffffff; /* سفید کردن ردیف داخلی */
+}
+
+/* استایل پیش‌فرض برای نوشته‌های جدول */
+.ant-table {
+  font-size: 14px; /* اندازه استاندارد Ant Design */
+}
+
+/* استایل هدر جدول */
+.ant-table-thead > tr > th {
+  background-color: #fafafa; /* رنگ ملایم */
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85); /* رنگ پیش‌فرض */
+  border-bottom: 1px solid #f0f0f0;
+  padding: 16px; /* فاصله داخلی بیشتر برای هدر */
+}
+
+/* استایل بدنه جدول */
+.ant-table-tbody > tr > td {
+  padding: 16px; /* فاصله مناسب بین سلول‌ها */
+  border-bottom: 1px solid #f0f0f0; /* خط زیرین */
+  transition: background-color 0.3s ease; /* برای انیمیشن تغییر رنگ */
+}
+
+/* استایل برای خطوط باریک بین هر آیتم */
+.ant-table-tbody > tr {
+  border-bottom: 1px solid #e6f7ff; /* رنگ باریک بین هر ردیف */
+}
+
+/* استایل Hover روی ردیف‌ها */
+.ant-table-tbody > tr:hover {
+  background-color: #e6f7ff !important; /* رنگ آبی ملایم در حالت Hover */
+  border-bottom: 1px solid #1890ff; /* رنگ آبی بین ردیف‌ها */
+}
+
+/* استایل برای ردیف‌های انتخاب شده */
+.ant-table-tbody > tr.ant-table-row-selected {
+  background-color: #e6f7ff !important; /* رنگ آبی ملایم در انتخاب ردیف */
+  color: #1890ff; /* رنگ متن برای ردیف انتخاب شده */
+}
+
+/* حذف رنگ پس‌زمینه از ردیف‌ها زمانی که موس از روی آن برداشته می‌شود */
+.ant-table-tbody > tr {
+  background-color: #ffffff; /* پس‌زمینه سفید اولیه */
+  border-bottom: 1px solid #f0f0f0; /* خط باریک اولیه */
+}
+
+/* تغییرات زمانی که موس روی هر ردیف است و باقی می‌ماند */
+.ant-table-tbody > tr:hover {
+  background-color: #e6f7ff; /* پس‌زمینه آبی در hover */
+  border-bottom: 1px solid #1890ff; /* رنگ آبی ملایم بین ردیف‌ها */
+}
+
+/* حالت Hover برای رنگ آبی روشن که روی هر ردیف قرار می‌گیرد */
+.ant-table-tbody > tr:hover td {
+  background-color: #e6f7ff !important; /* پس‌زمینه آبی در هر سلول */
+}
