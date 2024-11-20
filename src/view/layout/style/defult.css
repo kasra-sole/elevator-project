@@ -1,63 +1,48 @@
-
 html,
 body {
-  direction: rtl; 
+  direction: rtl;
   font-family: "Tahoma", sans-serif;
   text-align: right;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
+
 .layout {
-  display: flow-root;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
 }
+
+.container {
+  display: flex;
+  /* flex-direction: column; */
+  height: 100%;
+}
+
+.sider {
+  /* width: 250px; */
+  background: var(--colorBgContainer);
+  display: flex;
+  flex-direction: column;
+}
+
 .main {
-  /* margin-right: 250px;  */
-  /* margin-top: 64px;  */
-  flex: 1;
+  flex-grow: 1;
   padding: 20px;
   background: var(--colorBgContainer);
   border-radius: var(--borderRadiusLG);
+  overflow-y: auto; 
 }
-/* .header {
-  display: flex;
+.header{
   background: var(--colorBgContainer);
+  border-radius: var(--borderRadiusLG);
+  flex-grow: 1;
+}
 
-} */
 
-.sider {
-  display: flex;
-  flex-direction: column;
-  /* background: var(--colorBgContainer); */
-  /* width: 250px; */
-  position: absolute;
-  top: 0px; 
-  /* right: 0; */
-  bottom: 0;
 
-}
-.ant-menu {
-  text-align: right;
-}
-.ant-layout-header {
-  padding: 0;
-  background: var(--colorBgContainer);
-}
-.ant-btn {
-  font-size: 16px;
-  width: 64px;
-  height: 64px;
-}
-.content {
-
-  display: flex;
-  flex-direction: column;
-  min-height: 200px;
-   width:86%;
-   margin-right: 205px;
- padding: 15px;  
-}
-.divider{
-  font-size: 10px;
-}
 
 
 h2 {
@@ -83,10 +68,7 @@ h2 {
   gap: 26px;
   font-size: large;
 }
-.Avatar{
-  display: flex;
-  flex-direction: row;
-}
+
 .dark-mode {
   background-color: #000;
   color: #fff;

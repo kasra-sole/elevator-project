@@ -9,6 +9,7 @@ const App: React.FC = () => {
   return (
     <Layout style={{ minHeight: "100vh" }}>
       <Scaffold>
+        <Dashboard/>
       </Scaffold>
     </Layout>
     

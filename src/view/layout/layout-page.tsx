@@ -1,6 +1,6 @@
 import React, { ReactNode, useState } from "react"; 
 import "./style/defult.css"; 
-import {Divider,Breadcrumb,Layout } from "antd";
+
 import {
   LaptopOutlined, 
   NotificationOutlined, 
@@ -8,7 +8,7 @@ import {
 } from "@ant-design/icons"; 
 import HeaderComponent from "./header.tsx"; 
 import SidebarComponent from "./sidebar.tsx"; 
-const {Content } = Layout;
+
 
 interface ScaffoldProps {
   children?: ReactNode;
@@ -43,20 +43,9 @@ const Scaffold: React.FC<ScaffoldProps> = (props) => {
           darkMode={darkMode} 
           menuItems={menuItems} 
         />
-        <main className="main">{props.children}</main>
+        <main className="main">{props.children}
+        </main>
       </div>
-      <Content className="content">
-          <div className="content-container">
-            <h2>داشبورد</h2>
-            <Breadcrumb
-              className="breadcrumb"
-              items={[{ title: "خانه" }, { title: "داشبورد" }]}
-            />
-          </div>
-          <Divider  className="divider" orientation="left">
-            داشبورد پیش‌فرض
-          </Divider>
-        </Content>
     </div>
     
   );

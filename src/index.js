@@ -6,8 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import 'antd/dist/reset.css'; // برای ریست کردن استایل
 import App from './app/home-page.tsx';
 
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
