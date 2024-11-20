@@ -36,7 +36,6 @@ const HeaderComponent: React.FC<{ collapsed: boolean; setCollapsed: React.Dispat
           }}
         />
         <div className="icons">
-          {/* لینک‌دهی به آیکون‌ها */}
           <a href="https://example.com/app" target="_blank" rel="noopener noreferrer">
             <AppstoreOutlined style={{ fontSize: 24, color: darkMode ? "#fff" : "#000", margin: "0 10px" }} />
           </a>

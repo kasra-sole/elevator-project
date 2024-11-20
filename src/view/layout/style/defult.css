@@ -3,16 +3,17 @@ body {
   direction: rtl;
   font-family: "Tahoma", sans-serif;
   text-align: right;
-  margin: 0;
-  padding: 0;
-  height: 100%;
+  /* margin: 0; */
+  /* padding: 0; */
+  height:0%;
   width: 100%;
 }
 
 .layout {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  /* position: fixed; */
+  height: 90vh;
 }
 
 .container {
@@ -31,7 +32,9 @@ body {
 .main {
   flex-grow: 1;
   padding: 20px;
-  background: var(--colorBgContainer);
+  /* background: var(--colorBgContainer);
+   */
+   background-color: rgb(241, 241, 241);
   border-radius: var(--borderRadiusLG);
   overflow-y: auto; 
 }

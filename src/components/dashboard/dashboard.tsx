@@ -1,8 +1,10 @@
+// Dashboard.tsx
 "use client";
 import React from "react";
 import "./style/dashbord.css";
 import { Divider, Breadcrumb, Layout, Card, Row, Col } from "antd";
-import OngoingProjects from "./OngoingProjects.tsx"; 
+import OngoingProjects from "./OngoingProjects.tsx";
+import TaskTable from "./tasktable.tsx"; 
 
 const { Content } = Layout;
 
@@ -44,12 +46,15 @@ const Dashboard: React.FC = () => {
                 <p>هدف شما: 75 تسک</p>
               </Card>
             </Col>
-
             <Col xs={24} sm={24} lg={5} className="ongoing-projects-container">
-              <OngoingProjects/>
+              <OngoingProjects />
             </Col>
           </Row>
         </div>
+        <div className="table">
+          <TaskTable /> 
+        </div>
+        
       </Content>
     </div>
   );
