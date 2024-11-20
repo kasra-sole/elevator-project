@@ -82,7 +82,9 @@ body {
   text-align: center;
   border-radius: 8px;
   height: 70%;
-  width: 100%; /* عرض ثابت برای کارت‌ها */
+  width: 100%;
+   font-size: 15px;
+   font-weight: 700;  /* عرض ثابت برای کارت‌ها */
 }
 
 .cart_layout {
@@ -102,6 +104,7 @@ body {
   background-color: #fff;
   border-radius: 8px;
   width: 100%; /* عرض ثابت برای کارت‌ها */
+ 
 }
 
 .ongoing-projects-card h3 {
@@ -118,7 +121,8 @@ body {
 
 .ongoing-projects-card li {
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 500;
   color: #595959;
 }
 

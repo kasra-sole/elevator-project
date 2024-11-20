@@ -40,26 +40,26 @@ const data = [
   {
     key: '1',
     taskName: 'تسک اول',
-    category: 'کتاب‌ها',
+    category: 'llo',
     status: 'در حال انجام',
     dueDate: '1403/03/15',
-    assignedTo: 'فلورینا کيرتلان',
+    assignedTo: 'kasra',
   },
   {
     key: '2',
     taskName: 'تسک دوم',
-    category: 'ورزش‌ها',
+    category: 'lli',
     status: 'در حال انجام',
     dueDate: '1403/06/28',
-    assignedTo: 'چونس کرکوران',
+    assignedTo: 'Ali',
   },
   {
     key: '3',
     taskName: 'تسک سوم',
-    category: 'حیوانات خانگی',
+    category: 'llj',
     status: 'اتمام یافته',
     dueDate: '1403/09/12',
-    assignedTo: 'کان داکرینگ',
+    assignedTo: 'Hasan',
   },
 ];
 
