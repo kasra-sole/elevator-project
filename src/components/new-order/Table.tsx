@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Table } from "antd";
 import "./style/Table.css";
+import Icon, {
+  EyeOutlined 
+} from "@ant-design/icons";
 
 // تعریف نوع داده برای هر ردیف
 interface InvoiceDetail {
@@ -95,7 +98,7 @@ const Home: React.FC = () => {
   // تعریف جدول جزئیات برای هر ردیف
   const expandedRowRender = (record: DataType) => {
     const columns = [
-      { title: "لیست سفارش", dataIndex: "item", key: "item" },
+      { title: "لیست سفارش", dataIndex: "item", key: "item",  },
       { title: "تعداد", dataIndex: "quantity", key: "quantity" },
       { title: "قیمت واحد", dataIndex: "price", key: "price" },
     ];
@@ -105,6 +108,7 @@ const Home: React.FC = () => {
         columns={columns}
         dataSource={record.invoiceDetails}
         pagination={false}
+        
       />
     );
   };
