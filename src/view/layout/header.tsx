@@ -20,7 +20,8 @@ const HeaderComponent: React.FC<{ collapsed: boolean; setCollapsed: React.Dispat
         icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
         onClick={() => setCollapsed(!collapsed)} 
         style={{
-          fontSize: "16px",
+          // fontSize: "16px",
+          marginTop:1,
           width: 64,
           height: 64,
         }}

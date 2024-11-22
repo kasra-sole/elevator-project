@@ -10,12 +10,14 @@ const { Content } = Layout;
 
 const Order: React.FC = () => {
   return (
-    <Layout className="container">
+    <Layout>
+      <div className="header-page">
       <Content>
-        <div>
           <h2>ثبت سفارشات</h2>
+          <div className="breadcrumb">
           <Breadcrumb items={[{ title: "خانه" }, { title: "ثبت سفارشات" }]} />
-        </div>
+          </div>
+       
         <Divider orientation="left">ثبت سفارشات</Divider>
 
         <Social></Social>
@@ -31,6 +33,7 @@ const Order: React.FC = () => {
 
         <Table></Table>
       </Content>
+      </div>
     </Layout>
   );
 };

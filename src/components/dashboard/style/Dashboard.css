@@ -1,19 +1,9 @@
-/* از box-sizing برای همه المان‌ها استفاده کنیم */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
-/* تنظیمات برای جلوگیری از اسکرول افقی */
-body {
-  overflow-x: hidden;
-}
 
 /* استایل‌های موجود برای کارت‌ها و المان‌ها */
-.header-page {
+.header-page {  
   padding: 20px;
-  overflow-x: hidden; /* جلوگیری از اسکرول افقی در این بخش */
+  /* overflow-x: hidden;  */
  } 
 
 .title {
@@ -98,6 +88,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  direction: rtl;
 }
 
 .ongoing-projects-card {

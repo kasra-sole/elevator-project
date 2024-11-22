@@ -1,4 +1,13 @@
 .container {
+    /* padding: 20px; */
+    /* min-height: 50vh; */
+    background-color: #e0e3e5
+}
+.header-page {
     padding: 20px;
-    min-height: 100vh;
+    overflow-x: hidden; /* جلوگیری از اسکرول افقی در این بخش */
+    background-color: #f0f1f2;
+   } 
+.breadcrumb{
+    padding-right: 3px;
 }

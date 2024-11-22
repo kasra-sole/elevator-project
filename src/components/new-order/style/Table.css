@@ -1,22 +1,24 @@
-/* استایل‌های عمومی صفحه Home */
+
 .home-container {
-  padding: 24px; /* فاصله استاندارد Ant Design */
+  padding: 24px; 
   font-family: 'Arial', sans-serif;
   margin-top: 20px;
+  /* height: 60vh; */
+ 
 }
 
 /* عنوان اصلی جدول */
 .table-title {
-  font-size: 16px; /* اندازه استاندارد Ant Design */
+  font-size: 16px; 
   font-weight: 500;
-  margin-bottom: 24px; /* فاصله بیشتر از جدول */
-  color: rgba(0, 0, 0, 0.85); /* رنگ متن استاندارد */
-  text-align: left; /* تراز به سمت چپ */
+  margin-bottom: 24px;
+  color: rgba(0, 0, 0, 0.85);
+  text-align: left; 
 }
 
 /* استایل جدول */
 .styled-table {
-  background-color: #ffffff; /* پس‌زمینه سفید */
+  background-color: #ffffff; 
   border-radius: 4px; /* گوشه‌های گرد استاندارد */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* سایه استاندارد */
   overflow: hidden;
@@ -25,7 +27,7 @@
 
 /* ردیف‌های باز شده */
 .expanded-row {
-  background-color: #fafafa; /* رنگ ملایم برای پس‌زمینه */
+  background-color: #fafafa; 
 }
 
 .expanded-row .ant-table-tbody > tr {
